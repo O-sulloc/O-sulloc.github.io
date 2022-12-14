@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-14T17:16:01+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyeon’s Blog</title><subtitle>An amazing website.</subtitle><author><name>Jeonghyeon</name><email>bujjaf@gmail.com</email></author><entry><title type="html">나의 첫번째 글</title><link href="http://localhost:4000/blog/first-post/" rel="alternate" type="text/html" title="나의 첫번째 글" /><published>2022-12-14T00:00:00+09:00</published><updated>2022-12-14T00:00:00+09:00</updated><id>http://localhost:4000/blog/first-post</id><content type="html" xml:base="http://localhost:4000/blog/first-post/"><![CDATA[<h2 id="머리말-작성">머리말 작성</h2>
+<p>글을 작성하기에 앞서 머리말을 작성해주어야 한다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+        title:  "여기에 제목을 적어"
+        excerpt: "여기에는 한 줄 요약"
+
+        categories:
+        - Blog //여기에 카테고리명을 적어
+        tags:
+        - [Blog, jekyll, Github, Git] //이건 말그대로 태그들
+
+        toc: true //목차 나오게 할 건지?
+        toc_sticky: false //스크롤 하는 대로 목차 따라다니게 할 건지
+
+        date: 2022-12-14 //작성일
+        last_modified_at: 2022-12-14 //마지막 수정일
+---
+</code></pre></div></div>
+<p>태그때문에 자꾸 오류가 나는데,,? 지우니까 잘 됨..<br />
+아니 그래서 글을 어떻게 쓰는 거야..<br />
+일단 스페이스 두 번 + 엔터 하면 다음줄에서 글 쓸 수 있다함…</p>
+
+<blockquote>
+  <p>인용도 할 수 있음. “&gt;” 입력하면 된다.. (따옴표 빼고)</p>
+</blockquote>
+
+<h2 id="링크-거는-방법">링크 거는 방법?</h2>
+<p>아는거 하나 나왔다. 이건 벨로그에서 해 봄.</p>
+<h3 id="1-커스텀-링크">1. 커스텀 링크</h3>
+<p><a href="https://media.giphy.com/media/KDRv3QggAjyo/giphy.gif" title="날 눌러">코테없이 취업하는 방법</a><br />
+[] 이 안에 코테없이~ 적고 (여기에 url 적으면 됨)</p>
+
+<h3 id="2-그냥-url로-바로-연결">2. 그냥 URL로 바로 연결</h3>
+<p><a href="https://o-sulloc.github.io">https://o-sulloc.github.io</a><br />
+&lt;&gt; 이 안에 적으면 됨.</p>]]></content><author><name>Jeonghyeon</name><email>bujjaf@gmail.com</email></author><category term="Blog" /><summary type="html"><![CDATA[머리말 작성 글을 작성하기에 앞서 머리말을 작성해주어야 한다. ``` — title: “여기에 제목을 적어” excerpt: “여기에는 한 줄 요약”]]></summary></entry></feed>

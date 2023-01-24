@@ -3,7 +3,7 @@ title:  "나의 첫번째 글"
 excerpt: "깃허브 블로그 글 작성하는 방법"
 
 categories:
-- Blog
+- springboot
 
 toc: true
 toc_sticky: true

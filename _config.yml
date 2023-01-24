@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Jeonghyeon"
   avatar           : "/assets/images/avatarPic.PNG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "코딩 잘하는 사람을 **커비**처럼 삼켜서 노력없이 비열하게 코딩 잘하고 싶어"
+  bio              : "노션, 티스토리에서 옮겨오는 중!"
   location         : "Seoul, South Korea"
   email            : "bujjaf@gmail.com"
   links:
@@ -257,16 +257,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -290,3 +290,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar_main: true

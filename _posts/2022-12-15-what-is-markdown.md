@@ -1,9 +1,9 @@
 ---
+layout: single
 title:  "깃 블로그 글 작성 방법"
 excerpt: "마크다운이 뭐길래"
-
-categories:
-- docker
+categories: git
+tag: [git, markdown]
 
 toc: true
 toc_sticky: true

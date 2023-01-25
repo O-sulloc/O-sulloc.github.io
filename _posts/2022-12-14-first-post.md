@@ -3,7 +3,9 @@ title:  "나의 첫번째 글"
 excerpt: "깃허브 블로그 글 작성하는 방법"
 
 categories:
-- springboot
+- git
+
+tag: [git, markdown]
 
 toc: true
 toc_sticky: true

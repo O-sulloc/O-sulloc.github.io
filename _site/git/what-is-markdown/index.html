@@ -23,7 +23,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Hyeon's Blog">
 <meta property="og:title" content="깃 블로그 글 작성 방법">
-<meta property="og:url" content="http://localhost:4000/docker/what-is-markdown/">
+<meta property="og:url" content="http://localhost:4000/git/what-is-markdown/">
 
 
   <meta property="og:description" content="마크다운이 뭐길래">
@@ -45,7 +45,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/docker/what-is-markdown/">
+<link rel="canonical" href="http://localhost:4000/git/what-is-markdown/">
 
 
 
@@ -134,9 +134,7 @@
           Hyeon's Blog
           
         </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/categories/">category</a>
-            </li></ul>
+        <ul class="visible-links"></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -280,6 +278,54 @@
   
 
   
+    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">2</style> <span style="font-family:'Cafe24Oneprettynight';">개</style>
+      </li>
+
+      <li>
+        <!--span 태그로 카테고리들을 크게 분류-->
+        <span class="nav__sub-title">Java</span>
+        <span class="nav__sub-title">JavaScript</span>
+        <span class="nav__sub-title">DB</span>
+        <span class="nav__sub-title">Spring</span>
+            <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
+                
+                    
+                
+            </ul>
+
+        <span class="nav__sub-title">Infra</span>
+            <ul>
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
+                
+                    
+                
+            </ul>
+
+        <span class="nav__sub-title">Competitive Coding</span>
+
+        <span class="nav__sub-title">etc</span>
+            <ul>
+                
+                    
+                        <li><a href="/categories/git" class="">git(2)</a></li>
+                    
+                
+            </ul>
+      </li>
+  </ul>
+</nav>
+  
 
   </div>
 
@@ -295,7 +341,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/docker/what-is-markdown/" class="u-url" itemprop="url">깃 블로그 글 작성 방법
+            <a href="http://localhost:4000/git/what-is-markdown/" class="u-url" itemprop="url">깃 블로그 글 작성 방법
 </a>
           </h1>
           
@@ -408,6 +454,23 @@
       <footer class="page__meta">
         
         
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#git" class="page__taxonomy-item p-category" rel="tag">git</a><span class="sep">, </span>
+    
+      <a href="/tags/#markdown" class="page__taxonomy-item p-category" rel="tag">markdown</a>
+    
+    </span>
+  </p>
+
+
 
 
   
@@ -419,7 +482,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#docker" class="page__taxonomy-item p-category" rel="tag">docker</a>
+      <a href="/categories/#git" class="page__taxonomy-item p-category" rel="tag">git</a>
     
     </span>
   </p>
@@ -436,18 +499,18 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=%EA%B9%83+%EB%B8%94%EB%A1%9C%EA%B7%B8+%EA%B8%80+%EC%9E%91%EC%84%B1+%EB%B0%A9%EB%B2%95%20http%3A%2F%2Flocalhost%3A4000%2Fdocker%2Fwhat-is-markdown%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=%EA%B9%83+%EB%B8%94%EB%A1%9C%EA%B7%B8+%EA%B8%80+%EC%9E%91%EC%84%B1+%EB%B0%A9%EB%B2%95%20http%3A%2F%2Flocalhost%3A4000%2Fgit%2Fwhat-is-markdown%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocker%2Fwhat-is-markdown%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fgit%2Fwhat-is-markdown%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fdocker%2Fwhat-is-markdown%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fgit%2Fwhat-is-markdown%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/springboot/first-post/" class="pagination--pager" title="나의 첫번째 글
+      <a href="/git/first-post/" class="pagination--pager" title="나의 첫번째 글
 ">Previous</a>
     
     
@@ -475,7 +538,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/springboot/first-post/" rel="permalink">나의 첫번째 글
+        <a href="/git/first-post/" rel="permalink">나의 첫번째 글
 </a>
       
     </h2>

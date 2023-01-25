@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-24T22:10:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyeon’s Blog</title><subtitle>An amazing website.</subtitle><author><name>Jeonghyeon</name><email>bujjaf@gmail.com</email></author><entry><title type="html">깃 블로그 글 작성 방법</title><link href="http://localhost:4000/docker/what-is-markdown/" rel="alternate" type="text/html" title="깃 블로그 글 작성 방법" /><published>2022-12-15T00:00:00+09:00</published><updated>2022-12-15T00:00:00+09:00</updated><id>http://localhost:4000/docker/what-is-markdown</id><content type="html" xml:base="http://localhost:4000/docker/what-is-markdown/"><![CDATA[<h1 id="큰-제목은-이렇게-작성-h1">큰 제목은 이렇게 작성 H1</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-25T10:12:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hyeon’s Blog</title><subtitle>An amazing website.</subtitle><author><name>Jeonghyeon</name><email>bujjaf@gmail.com</email></author><entry><title type="html">깃 블로그 글 작성 방법</title><link href="http://localhost:4000/git/what-is-markdown/" rel="alternate" type="text/html" title="깃 블로그 글 작성 방법" /><published>2022-12-15T00:00:00+09:00</published><updated>2022-12-15T00:00:00+09:00</updated><id>http://localhost:4000/git/what-is-markdown</id><content type="html" xml:base="http://localhost:4000/git/what-is-markdown/"><![CDATA[<h1 id="큰-제목은-이렇게-작성-h1">큰 제목은 이렇게 작성 H1</h1>
 
 <h2 id="작은-제목은-이렇게-작성-h2">작은 제목은 이렇게 작성 H2</h2>
 
@@ -66,7 +66,7 @@
 
 <h2 id="구분선">구분선</h2>
 <p><em>, - 를 연달아서 치면 된다.
-**</em></p>]]></content><author><name>Jeonghyeon</name><email>bujjaf@gmail.com</email></author><category term="docker" /><summary type="html"><![CDATA[마크다운이 뭐길래]]></summary></entry><entry><title type="html">나의 첫번째 글</title><link href="http://localhost:4000/springboot/first-post/" rel="alternate" type="text/html" title="나의 첫번째 글" /><published>2022-12-14T00:00:00+09:00</published><updated>2022-12-14T00:00:00+09:00</updated><id>http://localhost:4000/springboot/first-post</id><content type="html" xml:base="http://localhost:4000/springboot/first-post/"><![CDATA[<h2 id="머리말-작성">머리말 작성</h2>
+**</em></p>]]></content><author><name>Jeonghyeon</name><email>bujjaf@gmail.com</email></author><category term="git" /><category term="git" /><category term="markdown" /><summary type="html"><![CDATA[마크다운이 뭐길래]]></summary></entry><entry><title type="html">나의 첫번째 글</title><link href="http://localhost:4000/git/first-post/" rel="alternate" type="text/html" title="나의 첫번째 글" /><published>2022-12-14T00:00:00+09:00</published><updated>2022-12-14T00:00:00+09:00</updated><id>http://localhost:4000/git/first-post</id><content type="html" xml:base="http://localhost:4000/git/first-post/"><![CDATA[<h2 id="머리말-작성">머리말 작성</h2>
 <p>글을 작성하기에 앞서 머리말을 작성해주어야 한다.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
         title:  "여기에 제목을 적어"
@@ -100,4 +100,4 @@
 
 <h3 id="2-그냥-url로-바로-연결">2. 그냥 URL로 바로 연결</h3>
 <p><a href="https://o-sulloc.github.io">https://o-sulloc.github.io</a><br />
-&lt;&gt; 이 안에 적으면 됨.</p>]]></content><author><name>Jeonghyeon</name><email>bujjaf@gmail.com</email></author><category term="springboot" /><summary type="html"><![CDATA[깃허브 블로그 글 작성하는 방법]]></summary></entry></feed>
+&lt;&gt; 이 안에 적으면 됨.</p>]]></content><author><name>Jeonghyeon</name><email>bujjaf@gmail.com</email></author><category term="git" /><category term="git" /><category term="markdown" /><summary type="html"><![CDATA[깃허브 블로그 글 작성하는 방법]]></summary></entry></feed>

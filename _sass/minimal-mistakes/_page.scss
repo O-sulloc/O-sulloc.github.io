@@ -2,6 +2,11 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+//댓글창 너비
+.utterances {
+  max-width: 100% !important;
+}
+
 #main {
   @include clearfix;
   margin-left: auto;

@@ -28,10 +28,9 @@
 
         <span class="nav__sub-title">Infra</span>
             <ul>
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
                 {% for category in site.categories %}
-                    {% if category[0] == "docker" %}
-                        <li><a href="/categories/docker" class="">docker({{category[1].size}})</a></li>
+                    {% if category[0] == "aws" %}
+                        <li><a href="/categories/aws" class="">aws({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
